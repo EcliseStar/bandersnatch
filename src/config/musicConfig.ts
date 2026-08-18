@@ -48,10 +48,17 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	local: {
 		playlist: [
 			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
-				cover: "/assets/music/cover/109951169585655912.webp",
+				name: "PATURE",
+				artist: "玄景龙",
+				url: "/assets/music/RAPTURE.mp3",
+				cover: "/assets/music/cover/1786776407928.jpeg",
+				lrc: "",
+			},
+			{
+				name: "慧星の夢中",
+				artist: "シンチャンネル",
+				url: "/assets/music/慧星の夢中.mp3",
+				cover: "/assets/music/cover/19-夢の疵、ディアル.png",
 				lrc: "",
 			},
 		],

@@ -40,7 +40,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		icon: "material-symbols:group",
 		children: [
 			// 友链
-			LinkPresets.Friends,
+			//LinkPresets.Friends,
 
 			// 留言
 			LinkPresets.Guestbook,
@@ -60,13 +60,13 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			LinkPresets.Gallery,
 
 			// 追番
-			LinkPresets.Anime,
+			//LinkPresets.Anime,
 
 			// VNDB
-			LinkPresets.VNDB,
+			//LinkPresets.VNDB,
 
 			// 番组计划
-			LinkPresets.Bangumi,
+			//LinkPresets.Bangumi,
 
 			// 书签导航
 			LinkPresets.Booknav,
@@ -94,21 +94,21 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		icon: "material-symbols:link",
 		// 子菜单
 		children: [
+			//{
+				//name: "GitHub",
+				//url: "https://github.com/CuteLeaf/Firefly",
+				//external: true,
+				//icon: "fa7-brands:github",
+			//},
+			//{
+				//name: "Gitee",
+				//url: "https://gitee.com/CuteLeaf/Firefly",
+				//external: true,
+				//icon: "fa7-brands:gitee",
+			//},
 			{
-				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
-				external: true,
-				icon: "fa7-brands:github",
-			},
-			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
-				external: true,
-				icon: "fa7-brands:gitee",
-			},
-			{
-				name: "QQ交流群",
-				url: "https://qm.qq.com/q/ZGsFa8qX2G",
+				name: "QQ",
+				url: "https://qm.qq.com/q/RjR2wgQOIM",
 				external: true,
 				icon: "fa7-brands:qq",
 			},
